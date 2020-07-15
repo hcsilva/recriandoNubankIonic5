@@ -20,6 +20,16 @@ public options: Array<any> = [
 
 public slidesOptions: any = { slidesPerView: 2, freeMode: true};
 
+public items: Array<any> = [
+
+  {icon: 'help-circle-outline', text: 'Me Ajuda'},
+  {icon: 'person-outline', text: 'Perfil'},
+  {icon: 'cash-outline', text: 'Configurar Conta'},
+  {icon: 'card-outline', text: 'Configurar Cartão'},
+  {icon: 'phone-portrai-outline', text: 'Configurações do app'},
+];
+
+
   constructor() {}
 
 }
